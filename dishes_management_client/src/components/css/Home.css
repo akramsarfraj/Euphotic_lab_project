@@ -1,0 +1,29 @@
+.home_page{
+    margin: 0;
+    padding: 0;
+   
+}
+.dishes_container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card-img-top{
+  
+    /* filter: blur(2px); */
+}
+.img_text{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(38, 83, 232);
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    transform: skewY(-20deg)
+}
